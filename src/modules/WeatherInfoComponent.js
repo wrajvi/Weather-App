@@ -1,28 +1,13 @@
 import styled from "styled-components";
 import React from "react";
+import {WeatherIcons} from "../App";
 
-export const WeatherIcons = {
-   "01d": "weather-app/icons/sunny.svg",
-   "01n": "/weather-app/icons/night.svg",
-   "02d": "/weather-app/icons/day.svg",
-   "02n": "/weather-app/icons/cloudy-night.svg",
-   "03d": "/weather-app/icons/cloudy.svg",
-   "03n": "/weather-app/icons/cloudy.svg",
-   "04d": "/weather-app/icons/perfect-day.svg",
-   "04n": "/weather-app/icons/cloudy-night.svg",
-   "09d": "/weather-app/icons/rain.svg",
-   "09n": "/weather-app/icons/rain-night.svg",
-   "10d": "/weather-app/icons/rain.svg",
-   "10n": "/weather-app/icons/rain-night.svg",
-   "11d": "/weather-app/icons/storm.svg",
-   "11n": "/weather-app/icons/storm.svg",
- };
 export const WeatherInfoIcons = {
-   sunset: "/weather-app/public/icons/perfect-day.svg",
-   sunrise: "/weather-app/public/icons/temp.svg",
-   humidity: "/weather-app/public/icons/humidity.svg",
-   wind: "/weather-app/public/icons/wind.svg",
-   pressure: "/weather-app/public/icons/pressure.svg",
+   sunset: "/weather-app/icons/perfect-day.svg",
+   sunrise: "/weather-app/icons/temp.svg",
+   humidity: "/weather-app/icons/humidity.svg",
+   wind: "/weather-app/icons/wind.svg",
+   pressure: "/weather-app/icons/pressure.svg",
 };
 const WeatherCondition= styled.div`
    display:flex;
