@@ -2,7 +2,7 @@ import styled from "styled-components";
 import React from "react";
 
 export const WeatherIcons = {
-   "01d": "/weather-app/icons/sunny.svg",
+   "01d": "weather-app/icons/sunny.svg",
    "01n": "/weather-app/icons/night.svg",
    "02d": "/weather-app/icons/day.svg",
    "02n": "/weather-app/icons/cloudy-night.svg",
@@ -18,11 +18,11 @@ export const WeatherIcons = {
    "11n": "/weather-app/icons/storm.svg",
  };
 export const WeatherInfoIcons = {
-   sunset: "/weather-app/icons/perfect-day.svg",
-   sunrise: "/weather-app/icons/temp.svg",
-   humidity: "/weather-app/icons/humidity.svg",
-   wind: "/weather-app/icons/wind.svg",
-   pressure: "/weather-app/icons/pressure.svg",
+   sunset: "/weather-app/public/icons/perfect-day.svg",
+   sunrise: "/weather-app/public/icons/temp.svg",
+   humidity: "/weather-app/public/icons/humidity.svg",
+   wind: "/weather-app/public/icons/wind.svg",
+   pressure: "/weather-app/public/icons/pressure.svg",
 };
 const WeatherCondition= styled.div`
    display:flex;
